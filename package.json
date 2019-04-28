@@ -1,0 +1,19 @@
+{
+  "name": "video-maker",
+  "version": "1.0.0",
+  "description": "Projeto para criação automática de vídeos - by Filipe Deschamps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaosanches/video-maker.git"
+  },
+  "author": "João Paulo Gonçalves Sanches <jpfaipa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaosanches/video-maker/issues"
+  },
+  "homepage": "https://github.com/joaosanches/video-maker#readme"
+}
