@@ -4,11 +4,14 @@ const robots = {
 }
 
 async function start() {
-    const content = {}
+    const content = {
+        language: 'pt',
+        maximumSentences: 7
+    }
 
     content.searchTerm = askAndReturnSearchTerm()
     content.prefix = askAndReturnPrefix()
-
+    
     await robots.text(content)
 
     function askAndReturnSearchTerm() {
